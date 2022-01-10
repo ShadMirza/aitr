@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Acropolis - Academics</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <a href="index.html"
+          ><img src="img/logo.png" alt="logo" class="logo"
+        /></a>
+        <i class="fas fa-bars hamburger-icon" style="color: #fff"></i>
+        <ul class="menu">
+          <li class="menu-items"><a href="index.html">Home</a></li>
+          <li class="menu-items">
+            <a href="academics.html" target="_blank">Academics</a>
+          </li>
+          <li class="menu-items">
+            <a href="admission.html" target="_blank">Admission</a>
+          </li>
+          <li class="menu-items">
+            <a href="gallery.html" target="_blank">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="department" style="position: relative">
+        <p class="text">Departments</p>
+        <ul>
+          <li>
+            Computer Science and Engineering
+            <ol>
+              <li><a href="subjects/ds_page.html">Data Structures</a></li>
+              <li>
+                <a href="subjects/oopm_page.html"
+                  >Object Oriented Programming Methodology</a
+                >
+              </li>
+              <li>
+                <a href="subjects/dis_struc_page.html">Discrete Structure</a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            Information Technology
+            <ol>
+              <li><a href="subjects/ds_page.html">Data Structures</a></li>
+              <li>
+                <a href="subjects/oopm_page.html"
+                  >Object Oriented Programming Methodology</a
+                >
+              </li>
+              <li>
+                <a href="subjects/java_page.html">JAVA Programming Lab</a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            Electronics and Communication Engineering
+            <ol>
+              <li>
+                <a href="subjects/dsd_page.html">Digital System Design</a>
+              </li>
+              <li>
+                <a href="subjects/electronic_devices.html"
+                  >Electronic Devices</a
+                >
+              </li>
+              <li>
+                <a href="subjects/network_analysis.html">Network Analysis</a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            Machanical Engineering
+            <ol>
+              <li><a href="subjects/thermodynamics.html">Thermodynamics</a></li>
+              <li><a href="subjects/strength.html">Strength of Material</a></li>
+              <li>
+                <a href="subjects/manu_pro.html">Manufacturing Process </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            Civil Engineering
+            <ol>
+              <li>
+                <a href="subjects/materials.html">Construction Materials</a>
+              </li>
+              <li>
+                <a href="subjects/plan_arch.html"
+                  >Building Planning & Architecture</a
+                >
+              </li>
+              <li>
+                <a href="subjects/strength.html">Strength of Materials</a>
+              </li>
+            </ol>
+          </li>
+
+          <li>
+            CSE (Data Science)
+            <ol>
+              <li><a href="subjects/ds_page.html">Data Structures</a></li>
+              <li>
+                <a href="subjects/oopm_page.html"
+                  >Object Oriented Programming Methodology</a
+                >
+              </li>
+              <li>
+                <a href="subjects/dbms_page.html"
+                  >Database Management Systems</a
+                >
+              </li>
+            </ol>
+          </li>
+
+          <li>
+            CSE (IoT)
+            <ol>
+              <li><a href="subjects/ds_page.html">Data Structures</a></li>
+              <li>
+                <a href="subjects/oopm_page.html"
+                  >Object Oriented Programming Methodology</a
+                >
+              </li>
+              <li><a href="subjects/iot_page.html">Fundamentals of IoT</a></li>
+            </ol>
+          </li>
+
+          <li>
+            CSE (AI & ML)
+            <ol>
+              <li><a href="subjects/ds_page.html">Data Structures</a></li>
+              <li>
+                <a href="subjects/oopm_page.html"
+                  >Object Oriented Programming Methodology</a
+                >
+              </li>
+              <li>
+                <a href="subjects/prob_stats.html"
+                  >Introduction to Probability and Statistics</a
+                >
+              </li>
+            </ol>
+          </li>
+          <li>
+            CSIT
+            <ol>
+              <li><a href="subjects/ds_page.html">Data Structures</a></li>
+              <li>
+                <a href="subjects/oopm_page.html"
+                  >Object Oriented Programming Methodology</a
+                >
+              </li>
+              <li><a href="subjects/java_page.html">JAVA Programming</a></li>
+            </ol>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </body>
+  <style>
+    body {
+      color: #000;
+      overflow-x: hidden;
+    }
+
+    .department{
+      margin: 1rem auto;
+    }
+
+    .department a {
+      color: rgb(0, 153, 255);
+      
+    }
+
+    .department a:hover {
+      text-decoration: underline;
+    }
+
+    .department ul {
+      list-style: none;
+      margin-left: 1rem;
+      font-weight: bold;
+    }
+
+    .department ol li {
+      font-weight: normal;
+    }
+
+    .department ol {
+      margin-left: 2rem;
+    }
+
+    .text {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 1rem;
+    }
+  </style>
+</html>

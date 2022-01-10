@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Acropolis - Admission</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <a href="index.html"
+          ><img src="img/logo.png" alt="logo" class="logo"
+        /></a>
+        <i class="fas fa-bars hamburger-icon" style="color: #fff"></i>
+        <ul class="menu">
+          <li class="menu-items"><a href="#">Home</a></li>
+          <li class="menu-items">
+            <a href="academics.html" target="_blank">Academics</a>
+          </li>
+          <li class="menu-items">
+            <a href="admission.html" target="_blank">Admission</a>
+          </li>
+          <li class="menu-items">
+            <a href="gallery.html" target="_blank">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="admission" style="position: relative">
+        <p class="text">Admission Form</p>
+      </div>
+    </header>
+    <div class="form-container">
+    <form action="">
+      <p>*All fields are mandatory</p>
+      <h2>Personal Information</h2>
+      <p>Name  <input type="text" name="name" required /></p>
+      <fieldset>
+        <legend>Gender</legend>
+        <p>
+          Male<input type="radio" name="gender" id="male" required /> Female
+          <input type="radio" name="gender" id="female" />
+        </p>
+      </fieldset>
+      <p>Pincode  <input type="pincode" name="pincode" required /></p>
+      <textarea name="address" cols="100" rows="8" placeholder="Your Address"></textarea>
+      <p>Email  <input type="email" name="email" required /></p>
+      <br>
+      <p>Phone Number  <input type="number" name="email" required /></p>
+      <input type="submit" value="Submit" class="btn"/>
+    </form>
+  </div>
+  </body>
+  <style>
+    body {
+      color: #000;
+      overflow-x: hidden;
+    }
+
+    .text {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    fieldset{
+      width: fit-content;
+      border: 1.5px solid rgb(180, 180, 180);
+      margin: 1rem 0;
+      padding: 1rem;
+    }
+    
+    textarea{
+      width: 65%;
+      margin: 1rem auto;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .form-container{
+      margin: 1rem 2.5rem;
+      width: 65%;
+    }
+
+  </style>
+</html>
